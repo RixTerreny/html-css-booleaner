@@ -46,6 +46,7 @@ h1{
 
 #img-container{
     height: 650px;
+    margin-bottom: 7px;
 }
 
 #img1{
@@ -58,6 +59,7 @@ h1{
 
 #img-container div{
     font-size: 20px;
+    margin-bottom: 5px;
 }
 
 .img-description{
@@ -72,4 +74,35 @@ h1{
 ul{
     font-size: 27px;
     margin-top: 40px;
+    padding-left: 29px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.first-row{
+    background-color: rgb(12, 113, 168);
+    color: white;
+    font-size: 23px;
+    width: 33%;
+}
+
+.second-row{
+    background-color: rgb(108, 173, 208);
+    color: white;
+    font-size: 23px;
+    width: 33%;
+}
+
+.third-row{
+    font-size: 23px;
+    width: 33%;
+}
+
+.fourth-row{
+    background-color: rgb(108, 173, 208);
+    color: white;
+    font-size: 23px;
+    width: 33%;
 }
