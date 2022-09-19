@@ -2,11 +2,9 @@
     margin: 0;
 }
 
-h2 span{
-    display: block;
-    height: 20px;
-    font-size: 35px;
-    padding-top: 55px;
+.container{
+    position: relative;
+    text-align: left;
 }
 
 header h2{
@@ -17,8 +15,24 @@ header h2{
     background-color: dodgerblue;
     height: 2.7em;
     background-image: url("../img/pattern.png");
-    background-size: 500px;
+    background-size: 650px;
     padding-left: 10px;
+}
+
+#the-positioning{
+    display: block;
+    height: 20px;
+    font-size: 35px;
+    padding-top: 55px;
+    position: absolute;
+    left: 51px;
+    bottom: 83px;
+}
+
+#booleaner-positioning{
+    position: absolute;
+    left: 12px;
+    bottom: 3px;    
 }
 
 h1{
@@ -47,6 +61,7 @@ h1{
 #img-container{
     height: 650px;
     margin-bottom: 7px;
+    margin-left: 10px;
 }
 
 #img1{
@@ -64,11 +79,13 @@ h1{
 
 .img-description{
     font-size: 22px;
+    margin-left: 10px;
 }
 
 .paragraph{
     font-size: 28px;
     margin-top: 40px;
+    margin-left: 10px;
 }
 
 ul{
@@ -79,6 +96,8 @@ ul{
 
 table{
     border-collapse: collapse;
+    margin-top: 40px;
+    margin-left: 10px;
 }
 
 .first-row{
@@ -90,7 +109,6 @@ table{
 
 .second-row{
     background-color: rgb(108, 173, 208);
-    color: white;
     font-size: 23px;
     width: 33%;
 }
@@ -102,7 +120,27 @@ table{
 
 .fourth-row{
     background-color: rgb(108, 173, 208);
-    color: white;
     font-size: 23px;
     width: 33%;
+}
+
+footer h2{
+    color: gray;
+    margin-left: 6px;
+    margin-top: 50px;
+    font-size: 29px;
+}
+
+footer img{
+    display: block;
+    margin: 10px;
+}
+
+.footer-img-title{
+    position: absolute;
+    top: 8px;
+    left:14px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px #000000a0 ;
 }
