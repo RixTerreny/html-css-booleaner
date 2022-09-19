@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+}
+
+h1 span{
+    display: block;
+    height: 50px;
+    font-size: 30px;
+    position: absolute;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+    text-shadow: 2px 2px #0000006b ;
+    background-color: dodgerblue;
+    height: 2.5em;
+    text-align: justify;
+    background-image: url("../img/pattern.png");
+    background-size: 350px;
+
+}
